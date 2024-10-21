@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Forum Discussion</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forum.css">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb.css" rel="stylesheet">
+
+    <!-- Icon Page -->
+    <link rel="icon" href="img/logo2.png" sizes="5" />
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+             <!-- Sidebar - Brand -->
+             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index2.html">
+                <!-- <div class="sidebar-brand-icon rotate-n-15">
+                    <img src="image/logo1.png">
+                </div> -->
+                <div>
+                    <img src="image/logo.png">
+                </div>
+            </a>
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="dashboard.html">
+                    <span class="fa fa-home mr-3"></span>
+                    <span>Dashboard</span></a>
+            </li>
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="classroom.html">
+                    <span class="fa-solid fa-book-bookmark mr-3"></span>
+                    <span>Lesson</span></a>
+            </li>
+            
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="forum.html">
+                    <span class="fa-solid fa-message mr-3"></span>
+                    <span>Forum</span></a>
+            </li>
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="assignment.html">
+                    <span class="fa-regular fa-clipboard mr-3"></span>
+                    <span>Assignment</span></a>
+            </li>
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="quiz.html">
+                    <span class="fa-solid fa-list-check mr-3"></span>
+                    <span>Quiz</span></a>
+            </li>
+            <br></br>
+            <br></br>
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="account.html">
+                    <span class="fa-regular fa-user mr-3"></span>
+                    <span>Account</span></a>
+                    </li>
+
+                    <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="login.html">
+                    <span class="fa-solid fa-right-from-bracket mr-3"></span>
+                    <span>Logout</span></a>
+                    </li>
+
+                    <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <span class="fa-regular fa-circle-question mr-3" style="color: white;"></span>
+                    <span>Butuh Bantuan?</span></a>
+                    </li>
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Topbar Search -->
+                    <form
+                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Cari..."
+                                aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-bell fa-fw"></i>
+                                <!-- Counter - Alerts -->
+                                <span class="badge badge-danger badge-counter">12</span>
+                            </a>
+                        </li>
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Liana Margareta</span>
+                                <img class="img-profile rounded-circle"
+                                    src="profil.png">
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    <!-- Content Row -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h3 class="h3 mb-0 text-gray-800">Forum Discussion</h3>
+                        </div>
+                        <div class="d-flex justify-content-between p-12">
+                            <a href="add_forum.html">
+                                <button class="btn btn-primary" type="button">
+                                <i class="fa-solid fa-plus"></i> Pertanyaan </button>
+                            </a>
+                        </div>
+            <!-- Forum List -->
+            <div class="inner-main-body p-2 p-sm-3 collapse forum-content show">
+                <div class="card mb-4">
+                    <div class="card-body p-2 p-sm-3">
+                        <div class="media forum-item">
+                            <a href="#" data-toggle="collapse" data-target=".forum-content"><img src="image/people2.jpg" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                            <div class="media-body">
+                                <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">Instalasi Phyton</a></h6>
+                                <p class="text-secondary">
+                                    Bagaimana cara mengatasi failed intall statsmodels packages phyton pada windows?
+                                </p>
+                                <p class="text-muted"><a href="javascript:void(0)">nabiyla</a> membalas <span class="text-secondary font-weight-bold">14 menit lalu</span></p>
+                            </div>
+                            <div class="text-muted small text-center align-self-center">
+                                <span class="d-none d-sm-inline-block"><i class="far fa-eye"></i>20</span>
+                                <span><i class="far fa-comment ml-2"></i>7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-body p-2 p-sm-3">
+                        <div class="media forum-item">
+                            <a href="#" data-toggle="collapse" data-target=".forum-content"><img src="image/people7.jpg" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                            <div class="media-body">
+                                <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">Phyton Problem</a></h6>
+                                <p class="text-secondary">
+                                    Bagaimana cara menggunakan PDB untuk debug common phyton error?
+                                </p>
+                                <p class="text-muted"><a href="javascript:void(0)">Muhamad Udin, S.Kom., M.T.</a> membalas <span class="text-secondary font-weight-bold">1 jam lalu</span></p>
+                            </div>
+                            <div class="text-muted small text-center align-self-center">
+                                <span class="d-none d-sm-inline-block"><i class="far fa-eye"></i> 12</span>
+                                <span><i class="far fa-comment ml-2"></i> 11</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-body p-2 p-sm-3">
+                        <div class="media forum-item">
+                            <a href="#" data-toggle="collapse" data-target=".forum-content"><img src="image/people5.jpg" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                            <div class="media-body">
+                                <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">Phyton Problem</a></h6>
+                                <p class="text-secondary">
+                                    Extension apa yang digunakan untuk handling eror pada phyton?
+                                </p>
+                                <p class="text-muted"><a href="javascript:void(0)">sulton</a> membalas <span class="text-secondary font-weight-bold">6 jam lalu</span></p>
+                            </div>
+                            <div class="text-muted small text-center align-self-center">
+                                <span class="d-none d-sm-inline-block"><i class="far fa-eye"></i> 32</span>
+                                <span><i class="far fa-comment ml-2"></i> 12</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-body p-2 p-sm-3">
+                        <div class="media forum-item">
+                            <a href="#" data-toggle="collapse" data-target=".forum-content"><img src="image/people4.jpg" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                            <div class="media-body">
+                                <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">Phyton Code Program</a></h6>
+                                <p class="text-secondary">
+                                    Kode program login register phyton sederhana
+                                </p>
+                                <p class="text-muted"><a href="javascript:void(0)">fazri</a> membalas <span class="text-secondary font-weight-bold">11 menit lalu</span></p>
+                            </div>
+                            <div class="text-muted small text-center align-self-center">
+                                <span class="d-none d-sm-inline-block"><i class="far fa-eye"></i> 69</span>
+                                <span><i class="far fa-comment ml-2"></i>19</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-body p-2 p-sm-3">
+                        <div class="media forum-item">
+                            <a href="#" data-toggle="collapse" data-target=".forum-content"><img src="image/people6.jpg" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                            <div class="media-body">
+                                <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">Phyton Code Program</a></h6>
+                                <p class="text-secondary">
+                                    CRUD Phyton dengan kode program kompleks
+                                </p>
+                                <p class="text-muted"><a href="javascript:void(0)">fariq</a> membalas <span class="text-secondary font-weight-bold">12 jam lalu</span></p>
+                            </div>
+                            <div class="text-muted small text-center align-self-center">
+                                <span class="d-none d-sm-inline-block"><i class="far fa-eye"></i> 65</span>
+                                <span><i class="far fa-comment ml-2"></i> 19</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-body p-2 p-sm-3">
+                        <div class="media forum-item">
+                            <a href="#" data-toggle="collapse" data-target=".forum-content"><img src="image/people3.jpg" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                            <div class="media-body">
+                                <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">Phyton Problem</a></h6>
+                                <p class="text-secondary">
+                                    Cara mengatasi tipe data eror pada phyton
+                                </p>
+                                <p class="text-muted"><a href="javascript:void(0)">nico</a> membalas <span class="text-secondary font-weight-bold">56 menit lalu</span></p>
+                            </div>
+                            <div class="text-muted small text-center align-self-center">
+                                <span class="d-none d-sm-inline-block"><i class="far fa-eye"></i> 45</span>
+                                <span><i class="far fa-comment ml-2"></i>20</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-body p-2 p-sm-3">
+                        <div class="media forum-item">
+                            <a href="#" data-toggle="collapse" data-target=".forum-content"><img src="image/people6.jpg" class="mr-3 rounded-circle" width="50" alt="User" /></a>
+                            <div class="media-body">
+                                <h6><a href="#" data-toggle="collapse" data-target=".forum-content" class="text-body">Phyton Problem</a></h6>
+                                <p class="text-secondary">
+                                    Cara mengatasi try CODE except ERROR NAME pada saat looping
+                                </p>
+                                <p class="text-muted"><a href="javascript:void(0)">naufal</a> membalas <span class="text-secondary font-weight-bold">13 jam lalu</span></p>
+                            </div>
+                            <div class="text-muted small text-center align-self-center">
+                                <span class="d-none d-sm-inline-block"><i class="far fa-eye"></i> 70</span>
+                                <span><i class="far fa-comment ml-2"></i>23</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="pagination pagination-sm pagination-circle justify-content-center mb-0">
+                    <li class="page-item disabled">
+                        <span class="page-link has-icon"><i class="material-icons">-</i></span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="javascript:void(0)">1</a></li>
+                    <li class="page-item active"><span class="page-link">2</span></li>
+                    <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link has-icon" href="javascript:void(0)"><i class="material-icons">-</i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /Forum List -->
+
+            <!-- Forum Detail -->
+            <div class="inner-main-body p-2 p-sm-3 collapse forum-content">
+                <a href="#" class="btn btn-light btn-sm mb-3 has-icon" data-toggle="collapse" data-target=".forum-content"><i class="fa fa-arrow-left mr-2"></i>Back</a>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <div class="media forum-item">
+                            <a href="javascript:void(0)" class="card-link">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle" width="50" alt="User" />
+                                <small class="d-block text-center text-muted">Newbie</small>
+                            </a>
+                            <div class="media-body ml-3">
+                                <a href="javascript:void(0)" class="text-secondary">Mokrani</a>
+                                <small class="text-muted ml-2">1 hour ago</small>
+                                <h5 class="mt-1">Realtime fetching data</h5>
+                                <div class="mt-3 font-size-sm">
+                                    <p>Hellooo :)</p>
+                                    <p>
+                                        I'm newbie with laravel and i want to fetch data from database in realtime for my dashboard anaytics and i found a solution with ajax but it dosen't work if any one have a simple solution it will be
+                                        helpful
+                                    </p>
+                                    <p>Thank</p>
+                                </div>
+                            </div>
+                            <div class="text-muted small text-center">
+                                <span class="d-none d-sm-inline-block"><i class="far fa-eye"></i> 19</span>
+                                <span><i class="far fa-comment ml-2"></i> 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <div class="media forum-item">
+                            <a href="javascript:void(0)" class="card-link">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle" width="50" alt="User" />
+                                <small class="d-block text-center text-muted">Pro</small>
+                            </a>
+                            <div class="media-body ml-3">
+                                <a href="javascript:void(0)" class="text-secondary">drewdan</a>
+                                <small class="text-muted ml-2">1 hour ago</small>
+                                <div class="mt-3 font-size-sm">
+                                    <p>What exactly doesn't work with your ajax calls?</p>
+                                    <p>Also, WebSockets are a great solution for realtime data on a dashboard. Laravel offers this out of the box using broadcasting</p>
+                                </div>
+                                <button class="btn btn-xs text-muted has-icon"><i class="fa fa-heart" aria-hidden="true"></i>1</button>
+                                <a href="javascript:void(0)" class="text-muted small">Reply</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Forum Detail -->
+
+            <!-- /Inner main body -->
+        </div>
+        <!-- /Inner main -->
+    </div>
+
+    <!-- New Thread Modal
+    <div class="modal fade" id="threadModal" tabindex="-1" role="dialog" aria-labelledby="threadModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header d-flex align-items-center bg-primary text-white">
+                        <h6 class="modal-title mb-0" id="threadModalLabel">New Discussion</h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="threadTitle">Title</label>
+                            <input type="text" class="form-control" id="threadTitle" placeholder="Enter title" autofocus="" />
+                        </div>
+                        <textarea class="form-control summernote" style="display: none;"></textarea>
+
+                        <div class="custom-file form-control-sm mt-3" style="max-width: 300px;">
+                            <input type="file" class="custom-file-input" id="customFile" multiple="" />
+                            <label class="custom-file-label" for="customFile">Attachment</label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary">Post</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> -->
+</div>
+</div>                          
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
